@@ -1046,9 +1046,18 @@ function Book() {
     <div style={{ fontSize: 14, color: "#64748b", marginTop: 4 }}>
       Historias que dejan huella más allá del quirófano.
     </div>
-    <div style={{ marginTop: 6, color: "#94a3b8" }}>
-      Próximamente
-    </div>
+    <div style={{ marginTop: 6 }}>
+  <Link
+    to="/capitulo/el-paciente-que-nunca-olvidare"
+    style={{
+      textDecoration: "underline",
+      cursor: "pointer",
+      fontWeight: 600
+    }}
+  >
+    Leer →
+  </Link>
+</div>
   </div>
 
   {/* CAPÍTULO 3 */}

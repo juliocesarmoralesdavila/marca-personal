@@ -75,5 +75,137 @@ export const CHAPTERS = [
       <p><strong>Lo importante es no dejar que te paralice.</strong></p>
     `
   }
+,
+{
+  slug: "el-paciente-que-nunca-olvidare",
+
+  title: "El paciente que nunca olvidaré",
+
+  excerpt:
+    "Hay pacientes que dejan una huella permanente en la vida de un médico.",
+
+  content: `
+<p>Los médicos acumulamos muchos recuerdos de nuestros pacientes. Cada uno deja algo distinto en nosotros: una enseñanza, una emoción, una reflexión que a veces cambia nuestra manera de ver la medicina.</p>
+
+<p>Algunos casos los recordamos como éxitos. Otros como desafíos difíciles que lograron salir adelante. Muchas veces los contamos como anécdotas entre compañeros, como aprendizajes que nos ayudan a mejorar en el futuro.</p>
+
+<p><strong>Siempre lo he pensado así: los pacientes son nuestros eternos maestros.</strong></p>
+
+<p><strong>Pero hay casos que no terminan bien.</strong></p>
+
+<p><strong>Y son precisamente esos los que más te marcan.</strong></p>
+
+<p>Hoy se me viene a la mente uno en particular. No recuerdo tu rostro con claridad, pero sí recuerdo lo que me hiciste sentir. Y, de alguna forma, también te lo agradezco.</p>
+
+<p>Los traumatólogos solemos tratar tres grandes grupos de pacientes.</p>
+
+<p>El primero, y probablemente el más frecuente, son los pacientes ancianos que sufren una fractura, muchas veces de cadera. Son personas mayores, frágiles desde el punto de vista médico. Si no se operan pronto pueden complicarse gravemente e incluso fallecer.</p>
+
+<p>El segundo grupo son pacientes con fracturas más simples, producto de accidentes domésticos o deportivos. Suelen ser lesiones que, tras la cirugía y la rehabilitación adecuada, permiten recuperar una vida prácticamente normal.</p>
+
+<p>El tercer grupo son los casos más graves: los traumatismos de alta energía o politraumatismos. Accidentes de tráfico, caídas desde altura, situaciones donde la vida del paciente está realmente en peligro y en las que múltiples equipos médicos trabajamos al mismo tiempo para salvarlo.</p>
+
+<p>He tratado algunos casos así. Y, por suerte, hasta ahora, ninguno falleció.</p>
+
+<p><strong>Pero aquel paciente fue distinto.</strong></p>
+
+<p>No fue un politraumatismo.</p>
+
+<p>No fue un accidente espectacular.</p>
+
+<p><strong>No pensé que se iría tan rápido.</strong></p>
+
+<p><strong>Ni de la forma en que se fue.</strong></p>
+
+<p>Era un anciano. No diría que especialmente frágil, pero había sufrido una fractura de cadera, algo que ya de por sí marca cierta vulnerabilidad.</p>
+
+<p>Lo conocí antes de la cirugía. Hablamos unos minutos. Podría haber sido fácilmente mi abuelo.</p>
+
+<p>Estaba consciente, orientado, hablaba con normalidad. Me explicó que llevaba ingresado aproximadamente una semana desde la caída que le provocó la fractura.</p>
+
+<p>Con una cadera rota no se puede caminar. Incluso sentarse resulta doloroso. La cirugía era necesaria.</p>
+
+<p>Durante su ingreso también se le había diagnosticado una neumonía, pero estaba estabilizada y había recibido el visto bueno del equipo de anestesia para operarse.</p>
+
+<p>El procedimiento indicado era una prótesis parcial de cadera. Con ella podríamos reemplazar la cabeza del fémur fracturada y permitirle volver a caminar al día siguiente.</p>
+
+<p>Como cualquier cirugía, no estaba exenta de riesgos.</p>
+
+<p><strong>Existe una complicación poco frecuente pero conocida: el síndrome de cementación.</strong> Un evento raro que puede provocar una caída brusca de la presión arterial y complicaciones graves durante la implantación de la prótesis.</p>
+
+<p>Había colocado muchas prótesis parciales cementadas. Muchas. Cientos probablemente. Había leído sobre ese síndrome, pero nunca lo había vivido.</p>
+
+<p><strong>Hasta ese día.</strong></p>
+
+<p>La cirugía comenzó con normalidad.</p>
+
+<p>De repente, el anestesista me avisó:</p>
+
+<p><strong>- El paciente se está hipotensando.</strong></p>
+
+<p>Me pidió que detuviera la intervención.</p>
+
+<p>No sabía exactamente qué estaba pasando. Paré inmediatamente.</p>
+
+<p>En cuestión de segundos empezaron a entrar más anestesistas y enfermeras en el quirófano. El ambiente cambió por completo.</p>
+
+<p>Intentaron estabilizarlo. Hicieron todo lo posible.</p>
+
+<p><strong>Pero el paciente entró en shock.</strong></p>
+
+<p><strong>Poco después, en parada cardíaca.</strong></p>
+
+<p><strong>No remontó.</strong></p>
+
+<p><strong>Mi paciente ya no estaba.</strong></p>
+
+<p>Sentí una mezcla de tristeza e impotencia que todavía hoy me cuesta describir. No sabía muy bien qué hacer.</p>
+
+<p>La enfermera más veterana del quirófano me dijo algo sencillo, pero necesario:</p>
+
+<p><strong>- Hay que cerrar la herida.</strong></p>
+
+<p>El monitor ya estaba apagado. No hacía falta. Ya no era un paciente en cirugía.</p>
+
+<p><strong>Era un cuerpo.</strong></p>
+
+<p>Cerré la herida con un peso enorme dentro. Me sentía culpable, aunque racionalmente sabía que había sido una complicación descrita, algo que puede ocurrir incluso cuando todo se hace correctamente.</p>
+
+<p><strong>Pero la razón no siempre calma la emoción.</strong></p>
+
+<p>Después vino otro momento difícil: salir a hablar con la familia.</p>
+
+<p>Les expliqué lo ocurrido. Mi voz se quebraba. Creo que lloré delante de ellos. No lo recuerdo con total claridad, pero sé que no pude ocultar mis emociones.</p>
+
+<p>Ellos lo notaron.</p>
+
+<p><strong>Y reaccionaron de una forma que nunca olvidaré.</strong></p>
+
+<p>No hubo reproches.</p>
+
+<p>No hubo gritos.</p>
+
+<p>No hubo acusaciones.</p>
+
+<p>Entendieron.</p>
+
+<p>Comprendieron que habíamos hecho todo lo posible y que, a veces, incluso haciendo todo bien, las cosas pueden salir mal.</p>
+
+<p><strong>Siempre agradeceré esa humanidad.</strong></p>
+
+<p>Han pasado varios años desde entonces. Y, por suerte, no me ha vuelto a ocurrir algo así.</p>
+
+<p>Pero esas experiencias dejan una huella en algún lugar profundo del subconsciente.</p>
+
+<p>Cada vez que recuerdo ese caso siento una cierta tristeza. Sin embargo, con el tiempo también he aprendido a aceptar algo que todos los médicos debemos enfrentar tarde o temprano:</p>
+
+<p><strong>Hay cosas que no podemos controlar.</strong></p>
+
+<p><strong>La medicina no es infalible.</strong></p>
+
+<p><strong>Y son precisamente estas experiencias las que, con el tiempo, también nos hacen ser quienes somos como médicos.</strong></p>
+`
+}
 ];
 export default CHAPTERS;
+
