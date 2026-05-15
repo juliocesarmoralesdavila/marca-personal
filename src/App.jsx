@@ -14,6 +14,8 @@ import ScrollToHash from "./components/ScrollToHash";
 import AreaDetailPage from "./pages/AreaDetailPage";
 import ScrollToTop from "./components/ScrollToTop";
 import ChapterPage from "./pages/ChapterPage";
+import { useEffect } from "react";
+import { initGA, trackPageView } from "./analytics";
 
 const BRAND = {
   name: "Dr. Julio Morales Dávila",
@@ -1158,6 +1160,12 @@ function Home() {
 }
 
 export default function App() {
+
+  useEffect(() => {
+    initGA();
+    trackPageView();
+  }, []);
+
   return (
     <BrowserRouter>
     <ScrollToTop />
