@@ -330,7 +330,15 @@ function Hero() {
             </p>
 
             <div style={styles.heroCtas}>
-              <a style={styles.btn} href="#consulta">Pedir cita</a>
+              <a
+  style={styles.btn}
+  href="#consulta"
+  onClick={() => {
+    window.gtag("event", "click_pedir_cita");
+  }}
+>
+  Pedir cita
+</a>
 
               {BRAND.socials.map((s) => (
                 <a
@@ -404,13 +412,25 @@ function Hero() {
               <a href={`mailto:${BRAND.contact.email}`}>{BRAND.contact.email}</a>
               <br />
               <strong>Tel:</strong>{" "}
-              <a href={`tel:${BRAND.contact.phone.replace(/\s/g, "")}`}>
+              <a
+  href={`tel:${BRAND.contact.phone.replace(/\s/g, "")}`}
+  onClick={() => {
+    window.gtag("event", "click_telefono");
+  }}
+>
                 {BRAND.contact.phone}
               </a>
               <br />
               <strong>Consulta:</strong> {BRAND.contact.locationLine}
               <br />
-              <a href={BRAND.contact.mapsHref} target="_blank" rel="noreferrer">
+              <a
+  href={BRAND.contact.mapsHref}
+  target="_blank"
+  rel="noreferrer"
+  onClick={() => {
+    window.gtag("event", "click_maps");
+  }}
+>
                 Ver en Google Maps
               </a>
             </p>
@@ -883,7 +903,12 @@ function PrivateClinic() {
   <strong>Teléfono:</strong>{" "}
   <a href={`tel:${BRAND.contact.phone.replace(/\s/g, "")}`}>{BRAND.contact.phone}</a><br />
   <strong>Email:</strong>{" "}
-<a href={`mailto:${BRAND.contact.email}`}>{BRAND.contact.email}</a>
+<a
+  href={`mailto:${BRAND.contact.email}`}
+  onClick={() => {
+    window.gtag("event", "click_email");
+  }}
+>
 <br />
 
 
