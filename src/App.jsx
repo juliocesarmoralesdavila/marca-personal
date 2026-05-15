@@ -15,6 +15,7 @@ import AreaDetailPage from "./pages/AreaDetailPage";
 import ScrollToTop from "./components/ScrollToTop";
 import ChapterPage from "./pages/ChapterPage";
 import { useEffect } from "react";
+import ReactGA from "react-ga4";
 import { initGA, trackPageView } from "./analytics";
 
 const BRAND = {
@@ -334,7 +335,7 @@ function Hero() {
   style={styles.btn}
   href="#consulta"
   onClick={() => {
-    window.gtag("event", "click_pedir_cita");
+    ReactGA.event("click_pedir_cita");
   }}
 >
   Pedir cita
@@ -415,7 +416,7 @@ function Hero() {
               <a
   href={`tel:${BRAND.contact.phone.replace(/\s/g, "")}`}
   onClick={() => {
-    window.gtag("event", "click_telefono");
+    ReactGA.event("click_telefono");
   }}
 >
                 {BRAND.contact.phone}
@@ -428,7 +429,7 @@ function Hero() {
   target="_blank"
   rel="noreferrer"
   onClick={() => {
-    window.gtag("event", "click_maps");
+    ReactGA.event("click_maps");
   }}
 >
                 Ver en Google Maps
@@ -906,7 +907,7 @@ function PrivateClinic() {
 <a
   href={`mailto:${BRAND.contact.email}`}
   onClick={() => {
-    window.gtag("event", "click_email");
+    ReactGA.event("click_email");
   }}
 >
 <br />
